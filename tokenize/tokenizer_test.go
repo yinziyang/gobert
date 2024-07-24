@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/buckhx/gobert/tokenize"
-	"github.com/buckhx/gobert/tokenize/vocab"
+	"github.com/yinziyang/gobert/tokenize"
+	"github.com/yinziyang/gobert/tokenize/vocab"
 )
 
 func TestBasic(t *testing.T) {

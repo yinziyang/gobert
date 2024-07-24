@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/buckhx/gobert/model"
+	"github.com/yinziyang/gobert/model"
 )
 
 /*
@@ -13,7 +13,6 @@ import (
 2. Fine tune w/ run_classifier
 3. export_classifier $MODEL_DIR $EXPORT_DIR 2
 4. MODEL_PATH=$EXPORT_DIR go run main.go
-
 */
 func main() {
 	path := os.Getenv("MODEL_PATH")

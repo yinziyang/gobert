@@ -3,7 +3,7 @@
 package estimator
 
 import (
-	tf "github.com/tensorflow/tensorflow/tensorflow/go"
+	tf "github.com/galeone/tensorflow/tensorflow/go"
 )
 
 type predictor struct {
